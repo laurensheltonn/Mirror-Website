@@ -1,5 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
 body{
     overflow-x: hidden;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Courgette', sans-serif;
     color: #666699;
     }
+
+/*--- Navigation --*/
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgb(128, 128, 128)!important;
+}
+.navbar-brand img {
+    height: 2rem;
+}
+.navbar-nav li {
+    padding: .7rem;
+    float: left;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+}
+.li a:hover {
+    background-color: #111;
+}

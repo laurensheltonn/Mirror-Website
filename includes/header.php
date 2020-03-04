@@ -1,3 +1,4 @@
+<? include 'includes/header.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,62 +21,22 @@
    <div class="collapse navbar-collapse" id="navbarResponsive">
 		<ul class="navbar-nav ml-auto">
 			<li class="nav-item">
-				<a class="nav-link" href="index.html">Home</a>
+				<a class="nav-link" href="index.php">Home</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="shop.html">Shop</a>
+				<a class="nav-link" href="shop.php">Shop</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="custom.html">Custom</a>
+				<a class="nav-link" href="custom.php">Custom</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="about.html">About</a>
+				<a class="nav-link" href="about.php">About</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="cart.html">Cart</a>
+				<a class="nav-link" href="cart.php">Cart</a>
 			</li>
 		</ul>
    </div>
 </nav>
 <!---End of Navigation -->
-
-<!--- Start Landing Page Section -->
-<div class="landing">
-	<div class="home-wrap">
-		<div class="home-inner">
-		</div>
-	</div>
-</div>
-
-<div class="caption text-center">
-	<h1>Welcome to Mirror Mir
-</div>
-<!--- End Landing Page Section -->
-
-</div>
-<!--- End Home Section -->
-
-<!--- Start Shop Section -->
-<div id="shop" class="offset">
-
-</div>
-<!--- End Shop Section -->
-
-<!--- Start Custom Sections -->
-<div id="custom" class="offset">
-
-</div>
-<!--- End Custom Sections -->
-
-<!--- Start About Section -->
-<div id="about" class="offset">
-
-</div>
-<!--- End About Section -->
-
-
-
-
-    
-</body>
-</html>
+<? include 'includes/header.php';?>

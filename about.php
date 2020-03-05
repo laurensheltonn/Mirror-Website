@@ -1,9 +1,6 @@
+<?php include 'includes/header.php';?>
+
 <p>Hello lovelies!!!! Our mirrror company allows you to completely customize a mirror to whatever you desire!! You just have to start creating your dream mirror or you can choose from our wide selection of pre-made mirrors that will still suit your wants and needs. We have been in the custom mirror making business since 2004, and we have served over 3 million customers just like you! We strive for an enjoyable, hassle-free customer experience. Our company promotes self-confidence and believe that no matter who you are, you should look and feel like how you want to! </p>
-
-
-
-
-
 
 
 
@@ -52,3 +49,4 @@
 </div>
 </div>
     </div> <!--- End Row-->
+    <?php include 'includes/footer.php';?>

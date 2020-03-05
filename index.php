@@ -1,4 +1,4 @@
-
+<?php include 'includes/header.php';?>
 <!--- Start Landing Page Section -->
 <div class="landing">
 	<div class="home-wrap">
@@ -9,18 +9,12 @@
 
 <div class="caption text-center">
 	<h1>Welcome to Mirror Mirror</h1>
+	<h3>Where you can be who ever you want!</h3>
+	<a class="btn btn-outline-light btn-lg" href="shop.php">Get Started</a>
 </div>
 <!--- End Landing Page Section -->
-
 </div>
 <!--- End Home Section -->
-
-<!--- Start Shop Section -->
-<div id="shop" class="offset">
-
-</div>
-<!--- End Shop Section -->
-
 <!--- Start Custom Sections -->
 <div id="custom" class="offset">
 
@@ -32,4 +26,4 @@
 
 </div>
 <!--- End About Section -->
-
+<?php include 'includes/footer.php';?>

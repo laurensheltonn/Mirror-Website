@@ -1,4 +1,4 @@
-<? include 'includes/header.php';?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,4 +39,3 @@
    </div>
 </nav>
 <!---End of Navigation -->
-<? include 'includes/header.php';?>

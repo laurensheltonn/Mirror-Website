@@ -16,7 +16,7 @@ body{
     background: rgb(128, 128, 128)!important;
 }
 .navbar-brand img {
-    height: 2rem;
+    height: 3rem;
 }
 .navbar-nav li {
     padding: .7rem;
@@ -28,4 +28,7 @@ body{
 }
 .li a:hover {
     background-color: #111;
+}
+#navbarResponsive {
+    border-bottom: .3rem;
 }

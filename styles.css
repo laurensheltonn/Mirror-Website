@@ -11,12 +11,12 @@ body{
 .navbar {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: .9rem;
+    font-size: .17rem;
     letter-spacing: .1rem;
     background: rgb(128, 128, 128)!important;
 }
 .navbar-brand img {
-    height: 3rem;
+    height: .3rem;
 }
 .navbar-nav li {
     padding: .7rem;
@@ -24,11 +24,14 @@ body{
 }
 .navbar-dark .navbar-nav .nav-link {
     color: white;
-    padding-top: .8rem;
+    padding-top: .6rem;
 }
 .li a:hover {
     background-color: #111;
 }
-#navbarResponsive {
-    border-bottom: .3rem;
-}
+
+
+
+
+
+  

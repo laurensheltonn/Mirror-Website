@@ -1,37 +1,64 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
 
-body{
+.body{
     overflow-x: hidden;
     font-family: 'Courgette', sans-serif;
     color: #666699;
+    }   
+
+.offset:before {
+        display: block;
+        content: "";
+        height:4rem;
+        margin-top: -4rem;
     }
-
-/*--- Navigation --*/
-
+    
+    /*--- Navigation --*/
+    
 .navbar {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: .17rem;
-    letter-spacing: .1rem;
-    background: rgb(128, 128, 128)!important;
-}
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 3rem;
+        letter-spacing: .1rem;
+        background: rgba (0, 0, 0, 0.6)!important;
+    }
 .navbar-brand img {
-    height: .3rem;
-}
+        height: 2rem;
+    }
 .navbar-nav li {
-    padding: .7rem;
-    float: left;
+        padding-right: .7rem;
+    }
+.n.navbar-dark .navbar-nav .nav-link {
+    color:yellow;
+    padding-top: .8rem;
 }
-.navbar-dark .navbar-nav .nav-link {
-    color: white;
-    padding-top: .6rem;
-}
-.li a:hover {
-    background-color: #111;
-}
+    .navbar-dark .navbar-nav .nav-link.active,
+    .navbar-dark .nvabar-nav .nav-link.active:hover {
+        color: #1ebba3;
+    }
+    
 
 
 
 
 
-  
+
+
+  /*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
